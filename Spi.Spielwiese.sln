@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spi.Spielwiese", "Spi.Spielwiese.csproj", "{7B70D492-7886-40F5-B5E9-B7DBAE1421E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B70D492-7886-40F5-B5E9-B7DBAE1421E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B70D492-7886-40F5-B5E9-B7DBAE1421E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B70D492-7886-40F5-B5E9-B7DBAE1421E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B70D492-7886-40F5-B5E9-B7DBAE1421E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {048C9FE8-6CEF-4465-AB9A-604141E288AD}
+	EndGlobalSection
+EndGlobal
