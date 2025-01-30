@@ -38,5 +38,31 @@ namespace Spi.Spielwiese
 
             this.Hide();
         }
+
+        private void btnListBinding_Click(object sender, RoutedEventArgs e)
+        {
+            fListBinding f = new fListBinding(this);
+            f.Show();
+
+            this.Hide();
+        }
+
+        private void btnTemplateBinding_Click(object sender, RoutedEventArgs e)
+        {
+
+            fTemplateBinding f = new fTemplateBinding(this);
+            f.Show();
+
+            this.Hide();
+        }
+
+        private void btnMVVM_Click(object sender, RoutedEventArgs e)
+        {
+
+            fBspMVVM f = new fBspMVVM(this);
+            f.Show();
+
+            this.Hide();
+        }
     }
 }

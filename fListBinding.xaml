@@ -1,0 +1,30 @@
+﻿<Window x:Class="Spi.Spielwiese.fListBinding"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Spi.Spielwiese"
+        mc:Ignorable="d"
+        Title="List Binding" Height="450" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ListBox x:Name="lstPersons" Grid.Row="0" Margin="10" ItemsSource="{Binding }" DisplayMemberPath="Anzeigename" IsSynchronizedWithCurrentItem="True">
+            
+            
+        </ListBox>
+
+        <ComboBox x:Name="cbxPersons" Grid.Row="1" Margin="10" ItemsSource="{Binding}" IsSynchronizedWithCurrentItem="True">
+            
+            
+        </ComboBox>
+        <Button x:Name="addPerson" Grid.Row="2" Content="Add Person" Margin="10" Click="addPerson_Click" />
+
+
+    </Grid>
+</Window>

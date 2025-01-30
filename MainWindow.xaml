@@ -25,7 +25,9 @@
 
             <Button x:Name="btnSimpleBinding" Content="Simple Binding" Padding="10" Margin="10" Click="btnSimpleBinding_Click" />
             <Button x:Name="btnObjectBinding" Content="Object Binding" Padding="10" Margin="10" Click="btnObjectBinding_Click"/>
-            <Button x:Name="btnListBinding" Content="List Binding" Padding="10" Margin="10"/>
+            <Button x:Name="btnListBinding" Content="List Binding" Padding="10" Margin="10" Click="btnListBinding_Click"/>
+            <Button x:Name="btnTemplateBinding" Content="Template Binding" Padding="10" Margin="10" Click="btnTemplateBinding_Click"/>
+            <Button x:Name="btnMVVM" Content="MVVM Beispiel" Padding="10" Margin="10" Click="btnMVVM_Click"/>
         </StackPanel>
 
     </Grid>

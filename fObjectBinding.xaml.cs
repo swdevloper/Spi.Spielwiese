@@ -49,5 +49,11 @@ namespace Spi.Spielwiese
             this.DataContext = _person; 
 
         }
+
+        private void btnSaveObject_Click(object sender, RoutedEventArgs e)
+        {
+            Person _changedPerson = this.DataContext as Person;
+            
+        }
     }
 }

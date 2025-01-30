@@ -17,14 +17,17 @@
             <RowDefinition Height="40"/>
             <RowDefinition Height="40"/>
             <RowDefinition Height="40"/>
-            <RowDefinition Height="40"/>
+            <RowDefinition Height="40*"/>
         </Grid.RowDefinitions>
 
         <Label Content="Name" Grid.Row="0" Grid.Column="0" />
         <Label Content="Vorname" Grid.Row="1" Grid.Column="0" />
         <Label Content="Geburtsdatum" Grid.Row="2" Grid.Column="0" />
         <Label Content="E-Mail" Grid.Row="3" Grid.Column="0" />
-        <Button x:Name="btnLoadObject" Grid.Row="5" Grid.Column="1" Content="Load Object" Margin="5" Click="btnLoadObject_Click"/>
+        <StackPanel Grid.Row="5" Grid.Column="1">
+            <Button x:Name="btnLoadObject"  Content="Load Object" Margin="5" Click="btnLoadObject_Click"/>
+            <Button x:Name="btnSaveObject"  Content="Save Object" Margin="5" Click="btnSaveObject_Click"/>
+        </StackPanel>
 
         <TextBox x:Name="txbName" Text="{Binding Name}" Grid.Row="0" Grid.Column="1" Margin="5"/>
         <TextBox x:Name="txbVorname" Text="{Binding Vorname}" Grid.Row="1" Grid.Column="1" Margin="5"/>

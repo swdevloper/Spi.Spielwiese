@@ -37,5 +37,15 @@ namespace Spi.Spielwiese
             set { _email = value; }
         }
 
+
+        public string Anzeigename
+        {
+            get { return string.Format("{0} {1}",Name,Vorname); }
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0} {1}: {2}", Name, Vorname, Email); ;
+        }
     }
 }
