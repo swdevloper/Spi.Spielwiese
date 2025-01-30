@@ -23,6 +23,7 @@ namespace Spi.Spielwiese
 
         private void btnSimpleBinding_Click(object sender, RoutedEventArgs e)
         {
+            //Beispiel 1 Binding
             fSimpleBinding f = new fSimpleBinding(this);
             f.Show();
             
