@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace Spi.Spielwiese
 {
+
+    //Model Klasse
     public class Person
     {
         private string _name;
